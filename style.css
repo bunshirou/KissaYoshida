@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Mincho ProN", serif;
+  background: #f5efe6;
+  color: #333;
+}
+
+.header {
+  background: #5a3a1b;
+  padding: 10px 20px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+  font-size: 32px;
+}
+
+.greeting {
+  padding: 40px;
+  background: #fff;
+}
+
+.greeting-inner {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.greeting img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.menu {
+  padding: 40px;
+  text-align: center;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-item img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.menu-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background: #7a4a2e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.info {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.info-box {
+  background: #fff;
+  padding: 20px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.info-box img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #777;
+}
